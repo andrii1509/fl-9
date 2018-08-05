@@ -1,0 +1,123 @@
+@media print{
+    body{
+        background: none;
+    }
+    #home{
+        height: 200px;
+    }
+    .tm-banner-inner{
+        height: 200px;
+    }
+    img{
+        margin: 0 30%;
+        box-sizing: border-box;
+    }
+    .flex-2-col{
+        display: block;
+    }
+    .flex-item{
+        margin: 10px;
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+    .flex-item h2{
+        margin: 0;
+    }
+    .tm-section-description{
+        text-decoration: none;
+        line-height: normal;
+        text-indent: 5px;
+        margin: 3px;
+        font-size: 15px;
+        font-style: normal;
+    }
+    p::first-letter{
+        color: black;
+    }
+    .tm-team-description-container h2{
+        color: blue;
+    }
+    .tm-main-content{
+        margin: 0 auto;
+    }
+    .tm-sidebar, #about, .heading, .blocks, #tmCarousel, .img-fluid, #contact{
+        display: none;
+    }
+    footer{
+        margin: 100px;
+    }
+}
+img.img-fluid.thumbnail{
+    border-radius: 50%;
+}
+#about{
+    box-shadow:0 5px 5px 5px rgba(0,0,0,0.5);
+}
+#about .tm-section-title:hover{
+    background-color: #31B0D5;
+}
+p::first-letter{
+    color: #76cdd7 ;
+    font-size: 30px;
+}
+.tm-sidebar, .tm-content-box{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+#tmCarousel h2{
+    color: gainsboro;
+    letter-spacing: 5px;
+}
+h2 + p{
+    font-style: italic;
+}
+p{
+    line-height: 35px;
+    text-indent: 20px;
+}
+.pad a:visited{
+    color: silver;
+}
+.pad a:hover{
+    color: #95DBE2;
+}
+.pad a.text::after{
+    content: "New" ;
+    font-size: 10px;
+    color: red;
+    vertical-align: super;
+}
+.box:nth-child(odd){
+    background: #F2F2F2;
+}
+.box p:first-letter{
+    color: #4A464A;
+}
+.tm-main-nav li{
+    border-bottom: 2px solid silver;
+}
+.tm-main-nav ul >:last-child{
+    border: none;
+}
+#contact .form-control{
+    color: red;
+}
+.btn{
+    background: #31B0D5;
+    color: white;
+}
+.mandatory-field::after{
+    content: "*";
+    color: red;
+    vertical-align: super;
+}
+.tm-content-box::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 25px solid transparent;
+    border-left: 150px solid #31B0D5;
+    border-top: 5px solid #31B0D5;
+}
