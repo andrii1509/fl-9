@@ -7,6 +7,7 @@ body .main-wrapper {
   margin: 0 auto;
 }
 body .main-wrapper header {
+  padding: 0 2%;
   height: 300px;
   width: 100%;
 }
@@ -19,19 +20,20 @@ body .main-wrapper header .logo img {
 }
 body .main-wrapper header nav {
   float: right;
-  width: 60%;
+  width: 50%;
   box-sizing: content-box;
   margin-top: 230px;
   border-top: 2px solid #617D8A;
   border-bottom: 2px solid #617D8A;
   padding: 10px 0;
+  margin-right: 6%;
 }
 body .main-wrapper header nav a {
   float: right;
   text-decoration: none;
   font-size: 25px;
   color: #21BCD3;
-  margin: 0 12%;
+  margin: 0 10%;
 }
 body .main-wrapper .toolbar {
   width: 100%;
@@ -39,6 +41,7 @@ body .main-wrapper .toolbar {
   margin: 50px 0;
 }
 body .main-wrapper .toolbar input {
+  margin-right: 4%;
   float: right;
   width: 150px;
   height: 30px;
@@ -55,6 +58,7 @@ body .main-wrapper .post-list article {
   margin: 1%;
   padding: 2%;
   width: 43%;
+  height: 800px;
   float: left;
   background: #EFEFEF;
 }
@@ -91,26 +95,30 @@ body .contact-form h1 {
   margin-left: 60%;
   float: right;
   color: #21BCD3;
+  padding-right: 2%;
 }
 body .contact-form h4 {
+  padding-right: 2%;
   float: right;
   color: #21BCD3;
 }
 body .contact-form form {
+  padding: 2%;
   width: 100%;
   margin-bottom: 70px;
 }
 body .contact-form form .info {
-  width: 100%;
+  width: 96%;
   height: 30px;
   margin: 10px 0;
 }
 body .contact-form form textarea {
-  width: 100%;
+  width: 96%;
   height: 200px;
   margin-bottom: 20px;
 }
 body .contact-form form button {
+  margin-right: 4%;
   width: 200px;
   height: 60px;
   float: right;

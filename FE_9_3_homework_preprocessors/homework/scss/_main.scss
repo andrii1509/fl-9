@@ -5,6 +5,7 @@ body{
     width: 80%;
     margin: 0 auto;
     header{
+      padding: 0 2%;
       height: 300px;
       width: 100%;
       .logo{
@@ -16,18 +17,19 @@ body{
       }
       nav{
         float: right;
-        width: 60%;
+        width: 50%;
         box-sizing: content-box;
         margin-top: 230px;
         border-top: 2px solid $borderHeaderColor;
         border-bottom: 2px solid $borderHeaderColor;
         padding: 10px 0;
+        margin-right: 6%;
         a{
           float: right;
           text-decoration: none;
           font-size: 25px;
           color: $linkColor;
-          margin: 0 12%;
+          margin: 0 10%;
         }
       }
     }
@@ -36,6 +38,7 @@ body{
       height: 30px;
       margin: 50px 0;
       input{
+        margin-right: 4%;
         float: right;
         width: 150px;
         height: 30px;
@@ -52,6 +55,7 @@ body{
         margin: 1%;
         padding: 2%;
         width: 43%;
+        height: 800px;
         float: left;
         background: $articleBackground;
         img{
@@ -72,8 +76,6 @@ body{
         }
       }
     }
-
-
     .about{
       margin: 2%;
       display: inline-block;
@@ -97,25 +99,29 @@ body{
       margin-left: 60%;
       float: right;
       color: $linkColor;
+      padding-right: 2%;
     }
     h4{
+      padding-right: 2%;
       float: right;
       color: $linkColor;
     }
     form{
+      padding: 2%;
       width: 100%;
       margin-bottom: 70px;
       .info{
-        width: 100%;
+        width: 96%;
         height: 30px;
         margin: 10px 0;
       }
       textarea{
-        width: 100%;
+        width: 96%;
         height: 200px;
         margin-bottom: 20px;
       }
       button{
+        margin-right: 4%;
         width: 200px;
         height: 60px;
         float: right;
