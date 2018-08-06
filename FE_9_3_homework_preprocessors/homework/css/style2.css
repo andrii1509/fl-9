@@ -41,11 +41,12 @@ body .main-wrapper .toolbar {
   margin: 50px 0;
 }
 body .main-wrapper .toolbar input {
+  border: 2px solid #FC5830;
   margin-right: 4%;
   float: right;
-  width: 150px;
-  height: 30px;
-  font-size: 25px;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
   color: #FC5830;
 }
 body .main-wrapper .toolbar input::placeholder {

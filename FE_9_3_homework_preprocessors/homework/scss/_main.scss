@@ -38,11 +38,12 @@ body{
       height: 30px;
       margin: 50px 0;
       input{
+        border: 2px solid $linkColor;
         margin-right: 4%;
         float: right;
-        width: 150px;
-        height: 30px;
-        font-size: 25px;
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
         color: $linkColor;
       }
       input::placeholder{
