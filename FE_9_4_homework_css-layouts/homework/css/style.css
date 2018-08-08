@@ -87,11 +87,11 @@ header div input{
     margin: 1%;
 }
 .img1{
-    box-shadow: inset 0 0 180px 40px rgba(0,0,0,0.75);
+    box-shadow: inset 0 0 180px 40px rgba(0,0,0,0.6);
     background: url("../img/sample.jpg") no-repeat;
 }
 .img2{
-    box-shadow: inset 0 0 180px 40px rgba(0,0,0,0.75);
+    box-shadow: inset 0 0 180px 40px rgba(0,0,0,0.6);
     background: url("../img/sample3.jpg") no-repeat;
 }
 .img1 p, .img2 p{
