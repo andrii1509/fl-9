@@ -1,9 +1,6 @@
 *{
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
-/*body{*/
-    /*margin: 0 auto;*/
-/*}*/
 header{
     margin: 0 auto;
     width: 90%;
@@ -131,7 +128,7 @@ header div input{
     margin: 100px;
 }
 .input-submit{
-    width: 74%;
+    width: 80%;
     margin: 1300px  auto 0;
     padding: 50px 10%;
     background-color: #F3F3F3;
@@ -142,16 +139,16 @@ header div input{
     margin: 0 auto;
 }
 .input-submit p{
-    margin: 40px 10px 0 70px;
+    margin: 40px 10px 0 12%;
     display: inline-block;
 }
 .input-submit input{
     margin: 27px 0 0 0;
-    width: 50%;
+    width: 40%;
     height: 40px;
 }
 .input-submit button{
-    width: 150px;
+    width: 10%;
     height: 46px;
     margin-top: 27px;
     background: #343638;
