@@ -65,8 +65,73 @@ header div input{
 #first{
     width: 40%;
     float: left;
+    font-size: 20px;
 }
 #second{
     width: 40%;
     float: right;
+}
+.content{
+    height: 1350px;
+    padding: 30px;
+    background-color: #F3F3F3;
+    width: 90%;
+    margin: 0 auto;
+}
+.f-l{
+    float: left;
+}
+.f-r{
+    float: right;
+}
+.title{
+    width: 50%;
+    height: 300px;
+}
+.img1{
+    background: url("../img/sample.jpg") no-repeat;
+}
+.img2{
+    background: url("../img/sample3.jpg") no-repeat;
+}
+.content p{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0;
+}
+.content .textPar{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+.textPar p{
+    font-size: 17px;
+    margin: 100px;
+}
+.input-submit{
+    height: 170px;
+    width: 74%;
+    margin: 0 auto;
+    padding: 50px 10%;
+    background-color: #F3F3F3;
+}
+.input-submit div{
+    background-color: #fff;
+    height: 100px;
+}
+.input-submit p{
+    margin: 40px 10px 0 70px;
+    display: inline-block;
+}
+.input-submit input{
+    margin: 27px 0 0 0;
+    width: 50%;
+    height: 40px;
+}
+.input-submit button{
+    width: 150px;
+    height: 46px;
+    margin-top: 27px;
+    background: #343638;
+    color: #fff;
 }
