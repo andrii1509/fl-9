@@ -72,7 +72,7 @@ header div input{
     float: right;
 }
 .content{
-    height: 1350px;
+    height: 1550px;
     padding: 30px;
     background-color: #F3F3F3;
     width: 90%;
@@ -109,15 +109,15 @@ header div input{
     margin: 100px;
 }
 .input-submit{
-    height: 170px;
     width: 74%;
-    margin: 0 auto;
+    margin: 1300px  auto 0;
     padding: 50px 10%;
     background-color: #F3F3F3;
 }
 .input-submit div{
     background-color: #fff;
     height: 100px;
+    margin: 0 auto;
 }
 .input-submit p{
     margin: 40px 10px 0 70px;
@@ -132,6 +132,29 @@ header div input{
     width: 150px;
     height: 46px;
     margin-top: 27px;
+    background: #343638;
+    color: #fff;
+}
+footer{
+    margin: 0 auto;
+    width: 90%;
+}
+.foot-title{
+    width: 18%;
+    height: 200px;
+    float: left;
+    margin: 1%;
+}
+footer p{
+    color: #9DA6B7;
+}
+footer input{
+    width: 60%;
+    height: 40px;
+}
+footer button{
+    width: 30%;
+    height: 46px;
     background: #343638;
     color: #fff;
 }
