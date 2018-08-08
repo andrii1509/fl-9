@@ -69,7 +69,7 @@ header div input{
     float: right;
 }
 .content{
-    height: 1550px;
+    height: 1750px;
     padding: 30px;
     background-color: #F3F3F3;
     width: 90%;
@@ -82,7 +82,7 @@ header div input{
     float: right;
 }
 .title{
-    width: 48%;
+    width: 55%;
     height: 300px;
     margin: 1%;
 }
@@ -100,7 +100,7 @@ header div input{
     display: inline-block;
 }
 .title .imgDescribe{
-    margin: 39% 20px 20px 20px;
+    margin: 36% 20px 20px 20px;
 
 }
 .title .like{
@@ -120,7 +120,7 @@ header div input{
 .content .textPar{
     font-size: 20px;
     height: 300px;
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
 .textPar p{
@@ -129,7 +129,7 @@ header div input{
 }
 .input-submit{
     width: 80%;
-    margin: 1300px  auto 0;
+    margin: 1400px  auto 0;
     padding: 50px 10%;
     background-color: #F3F3F3;
 }
