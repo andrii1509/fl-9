@@ -22,111 +22,107 @@
   /*--thumbnail-title: #484747;*/
 /*}*/
 * {
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
-body {
-  background-color: #0a1223;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+body{
   margin: auto;
+  font-size: 15px;
+  background: #0a1223;
 }
-ul {
+ul{
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
 }
-li {
+li{
   padding: 20px;
 }
-a {
-  text-decoration: none;
+a{
   color: #5d5d5d;
+  text-decoration: none;
 }
-.active,
-a:hover,
-a:active {
+a:hover{
   color: #54597d;
 }
-h1 {
+h1{
   margin: 150px 20px;
   color: #ddd;
   text-align: center;
-  font-size: 5vw;
+  font-size: 50px;
 }
-main {
+main{
   max-width: 1100px;
   margin: auto;
-  padding: 0 50px 110px 50px;
+  padding: 0 50px 100px;
 }
-article {
+article{
   color: #5d5d5d;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
-article:nth-child(odd) {
+article:nth-child(odd){
   flex-direction: row-reverse;
 }
 .template p{
   text-align: justify;
 }
-h2 {
-  font-size: 2em;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.template h2{
+  font-size: 30px;
+  color: snow;
 }
-img {
-  width: 440px;
+img{
+  width: 450px;
 }
-@media screen and (max-width: 990px) {
-  ul {
-    justify-content: center;
-  }
-  article {
+@media screen and (max-width: 950px){
+  article{
     flex-direction: column;
-    width: 440px;
+    width: 450px;
     margin: auto;
   }
-  article:nth-child(odd) {
+  article:nth-child(odd){
     flex-direction: column;
   }
-  h1 {
-    font-size: 49px;
+  ul{
+    justify-content: center;
+  }
+  h1{
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 575px) {
-  body {
+  body{
     background-color: #fff;
   }
-  .img-template {
+  .img-template{
     margin: 0;
   }
-  main {
-    padding: 0 30px 110px 30px;
+  main{
+    padding: 0 30px 100px;
   }
-  ul {
+  ul{
     flex-direction: column;
     align-items: flex-start;
   }
-  li {
-    width: 100%;
+  li{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
     border-bottom: 1px solid #ddd;
-    padding: 15px;
+    padding: 10px;
   }
-  h1 {
-    margin: 100px 20px;
-    font-size: 45px;
+  h1{
+    margin: 100px 25px;
+    font-size: 40px;
     color: #000;
   }
-  h2 {
+  h2{
     background: none;
     -webkit-background-clip: unset;
     -webkit-text-fill-color: #484747;
   }
-  article, img {
+  article, img{
     width: 100%;
-  }
-  .active {
-    font-weight: bold;
   }
 }
