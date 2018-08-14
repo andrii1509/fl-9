@@ -62,7 +62,7 @@ article{
   align-items: center;
   justify-content: space-between;
 }
-article:nth-child(odd){
+article:nth-child(even){
   flex-direction: row-reverse;
 }
 .template p{
@@ -82,7 +82,7 @@ img{
     flex-direction: column;
     width: 450px;
   }
-  article:nth-child(odd){
+  article:nth-child(even){
     flex-direction: column;
   }
   ul{
