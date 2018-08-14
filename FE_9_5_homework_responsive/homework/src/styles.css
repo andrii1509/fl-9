@@ -66,6 +66,7 @@ article:nth-child(even){
   flex-direction: row-reverse;
 }
 .template p{
+  text-indent: 1.5em;
   text-align: justify;
   color: #5D5D5D;
 }
