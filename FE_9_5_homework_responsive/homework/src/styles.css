@@ -100,9 +100,6 @@ img{
   .img-template{
     margin: 0;
   }
-  section{
-    padding: 0 30px;
-  }
   nav ul{
     flex-direction: column;
     align-items: flex-start;
