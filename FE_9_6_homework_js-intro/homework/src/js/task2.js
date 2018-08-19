@@ -1,4 +1,3 @@
-// Your code goes here
 let a = +prompt("a= ");
 let b = +prompt("b = ");
 let angle = +prompt("angle = ");

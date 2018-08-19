@@ -1,4 +1,3 @@
-// Your code goes here
 let price = prompt('Enter price');
 let discount = prompt("discount %");
 if (discount < 0 && discount > 100) {
