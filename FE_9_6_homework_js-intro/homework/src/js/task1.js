@@ -5,8 +5,9 @@ if (discount < 0 && discount > 100) {
 }else if (price < 0) {
     console.log("Wrong price");
 } else{
-    console.log("price without discount : ", price);
-    console.log("Discount : ", discount + " %");
-    console.log("Price with discount",  (price - (discount / 100 * price)).toFixed(2));
-    console.log("saved : ",  (discount / 100 * price).toFixed(2));
+    console.log("price without discount : ", price +
+        "\n" + "Discount : ", discount + " %" +
+        "\n" + "Price with discount",  (price - (discount / 100 * price)).toFixed(2) +
+        "\n" + "saved : ",  (discount / 100 * price).toFixed(2)
+    );
 }
