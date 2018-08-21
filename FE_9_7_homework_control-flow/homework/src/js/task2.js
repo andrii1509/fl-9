@@ -12,7 +12,7 @@ if (confirmation === true) {
     alert("'You did not become a millionaire, but can.")
 }
 function play() {
-    let random = Math.floor(Math.random()*5);
+    let random = Math.floor(Math.random()*randomArrLength);
     console.log("Random = " + random);
     let attempt = 3;
     while (attempt > 0){
@@ -38,7 +38,7 @@ function play() {
     totalPrize += currentPrize;
     if (attempt === 0) {
         let confirmation = confirm(
-            "Thank you for a game. Your prize is: " + totalPrize +
+            "Thank you for a game. Your prize is: " + "0" +
             "\n" + "Do you want to play again?");
         if (confirmation === true) {
             totalPrize = 0;
